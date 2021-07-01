@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: set up node
-        uses: actions/setup-node@v2.1.4
+        uses: actions/setup-node@v2.2.0
         with:
           node-version: 14.x
       - name: cache node_modules
@@ -39,7 +39,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: set up node
-        uses: actions/setup-node@v2.1.4
+        uses: actions/setup-node@v2.2.0
         with:
           node-version: 14.x
       - name: cache node_modules
@@ -65,7 +65,7 @@ jobs:
       - lint
     steps:
       - uses: actions/checkout@v1
-      - uses: actions/setup-node@v2.1.4
+      - uses: actions/setup-node@v2.2.0
         with:
           node-version: 14.x
           registry-url: "https://registry.npmjs.org"
@@ -107,7 +107,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: set up node
-        uses: actions/setup-node@v2.1.4
+        uses: actions/setup-node@v2.2.0
         with:
           node-version: 14.x
       - name: install dependencies

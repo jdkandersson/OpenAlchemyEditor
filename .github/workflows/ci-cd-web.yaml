@@ -19,7 +19,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: set up node
-        uses: actions/setup-node@v2.1.4
+        uses: actions/setup-node@v2.2.0
         with:
           node-version: 14.x
       - name: cache node_modules
@@ -50,7 +50,7 @@ jobs:
           key: ${{ runner.os }}-web-${{ env.cache-name }}-${{ hashFiles('web/**') }}
       - name: set up node
         if: steps.cache-build.outputs.cache-hit != 'true'
-        uses: actions/setup-node@v2.1.4
+        uses: actions/setup-node@v2.2.0
         with:
           node-version: 14.x
       - name: cache node_modules
@@ -84,7 +84,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: set up node
-        uses: actions/setup-node@v2.1.4
+        uses: actions/setup-node@v2.2.0
         with:
           node-version: 14.x
       - name: cache node modules
