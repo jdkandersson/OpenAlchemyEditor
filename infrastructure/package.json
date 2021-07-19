@@ -33,7 +33,7 @@
     "@aws-cdk/aws-cloudwatch": "1.89.0",
     "@aws-cdk/aws-cloudwatch-actions": "1.89.0",
     "@aws-cdk/aws-codedeploy": "1.89.0",
-    "@aws-cdk/aws-cognito": "1.89.0",
+    "@aws-cdk/aws-cognito": "1.114.0",
     "@aws-cdk/aws-iam": "1.89.0",
     "@aws-cdk/aws-lambda": "1.89.0",
     "@aws-cdk/aws-route53": "1.89.0",
